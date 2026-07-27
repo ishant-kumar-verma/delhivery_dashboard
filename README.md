@@ -181,7 +181,7 @@ The dashboard helps answer business questions such as:
 
 # 👨‍💻 Author
 
-**Ishant Kumar Verma**
+**Ishant Kumar**
 
 Aspiring Data Analyst | Power BI | SQL | Python
 
