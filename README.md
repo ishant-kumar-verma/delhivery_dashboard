@@ -21,10 +21,7 @@ The solution was developed entirely in **Power BI**, utilizing **Power Query**, 
 
 # 📷 Dashboard Preview
 
-<p align="center">
-<img src="Dashboard Images/Delhivery Dashboard.png" width="100%">
-</p>
-![Dashboard Preview]([Dashboard.png](https://github.com/ishant-kumar-verma/delhivery_dashboard/blob/main/Delhivery_logistics.png))
+![Dashboard Preview]((https://github.com/ishant-kumar-verma/delhivery_dashboard/blob/main/Delhivery_logistics.png))
 ---
 
 # 🎯 Business Objectives
