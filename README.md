@@ -1,207 +1,184 @@
-# 🚚 Delhivery Logistics Analytics Dashboard | Power BI
+# 🚚 Delhivery Logistics Performance Dashboard
 
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi\&logoColor=black)
-![Data Analytics](https://img.shields.io/badge/Data-Analytics-blue)
-![DAX](https://img.shields.io/badge/DAX-Measures-orange)
-![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Cleaning-green)
-![Status](https://img.shields.io/badge/Project-Completed-success)
+> An interactive Power BI dashboard for analyzing logistics operations, delivery efficiency, route performance, and operational KPIs.
 
-## 📌 Overview
-
-This project presents an interactive **Logistics Analytics Dashboard** inspired by **Delhivery's delivery operations**. The dashboard transforms raw logistics data into meaningful business insights that help monitor operational performance, delivery efficiency, customer satisfaction, and transportation costs.
-
-The project demonstrates practical Power BI skills including **data cleaning, data modeling, DAX, visualization design, and business storytelling**.
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi)
+![DAX](https://img.shields.io/badge/DAX-Measures-blue)
+![Power Query](https://img.shields.io/badge/Power%20Query-ETL-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ---
 
-## 🎯 Project Objectives
+## 📌 Project Overview
 
-* Monitor delivery performance across different cities
-* Analyze on-time and delayed deliveries
-* Track delivery costs and operational efficiency
-* Evaluate customer satisfaction
-* Compare vehicle performance
-* Identify trends affecting delivery operations
-* Build an executive-level dashboard for decision making
+This project presents a **Logistics Performance Dashboard** inspired by real-world delivery operations.
+
+The dashboard enables logistics managers to monitor delivery performance, identify operational bottlenecks, evaluate route efficiency, and make data-driven decisions using interactive visualizations.
+
+The solution was developed entirely in **Power BI**, utilizing **Power Query**, **DAX**, and modern dashboard design principles.
 
 ---
 
-## 📊 Dashboard Preview
+# 📷 Dashboard Preview
 
-[> *(Add dashboard screenshots here)*
-](https://github.com/ishant-kumar-verma/delhivery_dashboard/blob/main/Delhivery_logistics.png)
-```
+<p align="center">
+<img src="Dashboard Images/Delhivery Dashboard.png" width="100%">
+</p>
+![Dashboard Preview]([Dashboard.png](https://github.com/ishant-kumar-verma/delhivery_dashboard/blob/main/Delhivery_logistics.png))
+---
+
+# 🎯 Business Objectives
+
+- Monitor overall delivery operations
+- Measure On-Time Delivery %
+- Analyze delivery delays
+- Track source and destination centers
+- Evaluate route efficiency
+- Analyze delivery trends over time
+- Identify operational improvement opportunities
 
 ---
 
-## 📈 Key Performance Indicators (KPIs)
+# 📊 Key Performance Indicators
 
-* 📦 Total Deliveries
-* ✅ On-Time Deliveries
-* ⏳ Delayed Deliveries
-* ⭐ Average Customer Rating
-* 💰 Total Delivery Cost
-* 🚚 Average Delivery Time
-* 📍 Total Distance Covered
-* 👥 Active Delivery Partners
-
----
-
-## 📊 Dashboard Features
-
-### Executive Overview
-
-* Overall delivery performance
-* Operational KPIs
-* Delivery trend analysis
-* Interactive slicers
-
-### Delivery Performance
-
-* On-time vs delayed deliveries
-* Delivery status distribution
-* Monthly delivery trends
-
-### Vehicle Analysis
-
-* Vehicle type comparison
-* Delivery efficiency
-* Cost analysis by vehicle
-
-### Customer Insights
-
-* Customer ratings
-* Rating distribution
-* Satisfaction analysis
-
-### Operational Analytics
-
-* Weather impact
-* Distance analysis
-* Delivery cost breakdown
-* Regional performance
+| KPI | Description |
+|------|-------------|
+| 🚚 Total Trips | Total completed deliveries |
+| ⏱ On Time % | Percentage of on-time deliveries |
+| 📦 Average Delivery Time | Average delivery duration |
+| 📍 Average Distance | Average trip distance |
+| 🚛 Average Speed | Delivery speed analysis |
+| ⚠ Total Delay | Number of delayed deliveries |
+| 📈 Route Efficiency | Route performance indicator |
+| 📊 Trip Growth % | Growth comparison |
 
 ---
 
-## 🛠 Tools & Technologies
+# 📈 Dashboard Features
 
-| Tool             | Purpose                        |
-| ---------------- | ------------------------------ |
-| Power BI Desktop | Dashboard Development          |
-| Power Query      | Data Cleaning & Transformation |
-| DAX              | Measures & KPIs                |
-| Excel / CSV      | Dataset                        |
-| Data Modeling    | Relationships & Performance    |
+## Executive Overview
 
----
-
-## 📂 Dataset Information
-
-The dataset contains approximately **25,000 logistics delivery records**.
-
-### Sample Columns
-
-* Delivery ID
-* Delivery Partner
-* City
-* Vehicle Type
-* Distance
-* Delivery Time
-* Weather Condition
-* Delay Status
-* Customer Rating
-* Delivery Cost
-* Package Weight
-* Delivery Date
+- KPI Cards
+- Interactive Filters
+- Date Slicer
+- Source Center Filter
+- Destination Center Filter
 
 ---
 
-## 📌 Data Cleaning
+## Delivery Performance
 
-The dataset was cleaned using **Power Query**.
-
-Cleaning steps included:
-
-* Removed duplicate records
-* Fixed missing values
-* Standardized text fields
-* Converted data types
-* Created calculated columns
-* Improved data consistency
+- Daily Delivery Trend
+- Delivery Status Distribution
+- On-Time Performance Gauge
 
 ---
 
-## 📐 Data Modeling
+## Logistics Analysis
 
-The project follows a structured data model with optimized relationships for improved performance.
-
-Implemented:
-
-* Star-schema design
-* Calendar table
-* Optimized relationships
-* DAX measures
-* Calculated columns
+- Top Source Centers
+- Top Destination Centers
+- Route Efficiency Analysis
+- Distance Band Distribution
+- Delivery Time Band Analysis
 
 ---
 
-## 📊 Visualizations Used
+## Operational Insights
 
-* KPI Cards
-* Clustered Bar Chart
-* Line Chart
-* Donut Chart
-* Matrix Table
-* Stacked Column Chart
-* Treemap
-* Slicers
-* Cards
-* Interactive Filters
+- Trip Shift Analysis
+- Monthly Trip Distribution
+- Efficiency Category Breakdown
 
 ---
 
-## 💡 Business Insights
+# 🛠 Tools & Technologies
 
-The dashboard helps answer questions such as:
-
-* Which cities have the highest delivery volume?
-* Which vehicle type performs best?
-* How much do delayed deliveries impact operations?
-* Which delivery partners perform efficiently?
-* How does weather affect delivery time?
-* What factors influence customer ratings?
-* Which regions require operational improvements?
+- Power BI Desktop
+- Power Query
+- DAX
+- Data Modeling
+- Excel Dataset
 
 ---
 
-## 🚀 Skills Demonstrated
+# 📂 Dataset
 
-* Power BI
-* Power Query
-* DAX
-* Data Cleaning
-* Data Visualization
-* Dashboard Design
-* Business Intelligence
-* Data Modeling
-* KPI Development
-* Storytelling with Data
+The dataset contains logistics delivery records including:
+
+- Trip ID
+- Source Center
+- Destination Center
+- Delivery Date
+- Distance
+- Delivery Time
+- Delay Status
+- Route Efficiency
+- Speed
+- Shift
+- Month
 
 ---
 
-## 📁 Repository Structure
+# 📊 Visualizations Used
+
+- KPI Cards
+- Clustered Bar Charts
+- Line Chart
+- Donut Chart
+- Gauge Chart
+- Decomposition Tree
+- Slicers
+- Interactive Filters
+
+---
+
+# 📈 Business Insights
+
+The dashboard helps answer business questions such as:
+
+- Which source centers generate the highest trip volume?
+- Which destination centers receive the most deliveries?
+- What percentage of deliveries are completed on time?
+- Which trip shift handles the highest delivery volume?
+- Which delivery time category dominates operations?
+- How are trips distributed across different distance bands?
+- Which efficiency category contains the highest number of trips?
+- How does delivery performance change over time?
+
+---
+
+# ⚡ Power BI Skills Demonstrated
+
+✔ Data Cleaning using Power Query
+
+✔ Data Modeling
+
+✔ DAX Measures
+
+✔ KPI Design
+
+✔ Interactive Dashboard Design
+
+✔ Drill-down Analysis
+
+✔ Business Intelligence Reporting
+
+✔ Logistics Analytics
+
+---
+
+# 📁 Repository Structure
 
 ```
-Delhivery-Logistics-Dashboard/
+Delhivery-Logistics-Dashboard
 │
 ├── Dashboard.pbix
-├── Dataset/
-│   └── Logistics_Data.xlsx
+├── Dataset
+│     └── Logistics Dataset.xlsx
 │
-├── Dashboard Images/
-│   ├── Overview.png
-│   ├── Delivery Performance.png
-│   └── Customer Insights.png
+├── Dashboard Images
+│     └── Delhivery Dashboard.png
 │
 ├── README.md
 └── LICENSE
@@ -209,31 +186,30 @@ Delhivery-Logistics-Dashboard/
 
 ---
 
-## 🎓 Learning Outcomes
+# 🚀 Project Highlights
 
-Through this project, I strengthened my understanding of:
-
-* Business Intelligence
-* Logistics Analytics
-* Dashboard Design Principles
-* Interactive Reporting
-* DAX Optimization
-* Data Transformation
-* KPI Development
+- Interactive dashboard
+- Executive-level KPI reporting
+- Modern UI Design
+- Logistics performance monitoring
+- Business-focused storytelling
+- Optimized Power BI visuals
 
 ---
 
-## 📬 Connect With Me
+# 👨‍💻 Author
 
 **Ishant Kumar Verma**
 
-* 💼 LinkedIn: https://www.linkedin.com/in/ishant-kumar-verma
-* 💻 GitHub: https://github.com/ishant-kumar-verma
+Aspiring Data Analyst | Power BI | SQL | Python
 
-If you found this project useful, consider giving it a ⭐ on GitHub!
+### Connect with me
+
+- LinkedIn: https://www.linkedin.com/in/ishant-kumar-verma
+- GitHub: https://github.com/ishant-kumar-verma
 
 ---
 
-## ⭐ If you like this project
+## ⭐ Support
 
-Please consider **starring** this repository to support my work and connect with me on LinkedIn for more Data Analytics and Power BI projects.
+If you found this project useful, consider giving this repository a **Star ⭐**.
