@@ -167,23 +167,6 @@ The dashboard helps answer business questions such as:
 
 ---
 
-# 📁 Repository Structure
-
-```
-Delhivery-Logistics-Dashboard
-│
-├── Dashboard.pbix
-├── Dataset
-│     └── Logistics Dataset.xlsx
-│
-├── Dashboard Images
-│     └── Delhivery Dashboard.png
-│
-├── README.md
-└── LICENSE
-```
-
----
 
 # 🚀 Project Highlights
 
